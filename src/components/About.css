@@ -1,0 +1,125 @@
+.about {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1400px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.panel-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.about-title {
+  font-size: 80px;
+  font-weight: 700;
+  color: #000;
+  text-align: start;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.about-title span {
+  background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
+  background-clip: text;
+  color: transparent;
+}
+
+.about-content {
+  font-size: 20px;
+  font-weight: 500;
+  color: #333;
+  text-align: start;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.row .about-card {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin-top: 30px;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.row .about-card h2 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
+  background-clip: text;
+  color: transparent;
+}
+
+.row .about-card p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7b7583;
+  margin-bottom: 0;
+}
+
+.row .boxs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;  
+  margin-top: 50px;
+}
+
+.box {
+  background-color: transparent;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box i {
+  font-size: 54px;
+  background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
+  background-clip: text;
+  color: transparent;  
+  margin-bottom: 20px;
+}
+
+.box h2 {
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.box p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7b7583;
+  margin-bottom: 0;
+}
+
+.about .break {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
