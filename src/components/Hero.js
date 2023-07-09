@@ -87,24 +87,24 @@ export default function Hero() {
         <div className="content">
           <h1>collect & sell<br /><span>super rare nfts</span></h1>
 
-          <div className="container panels">
+          <div className="container panel">
             <div className="row">
-              <div className="col panel sec-image">
-                <img className="img-fluid" src={require('../images/01.jpg')} alt="01" />
+              <div className="col">
+                <img className="img secondary-image" src={require('../images/01.jpg')} alt="01" />
               </div>
-              <div className="col panel thr-image">
-                <img className="img-fluid" src={require('../images/02.jpg')} alt="02" />
-                <img className="img-fluid" src={require('../images/03.jpg')} alt="03" />
+              <div className="col">
+                <img className="img tertiary-image" src={require('../images/02.jpg')} alt="02" />
+                <img className="img tertiary-image" src={require('../images/03.jpg')} alt="03" />
               </div>
-              <div className="col panel thr-image">
-                <img className="img-fluid main-image" src={require('../images/04.jpg')} alt="04" />
+              <div className="col">
+                <img className="img main-image" src={require('../images/04.jpg')} alt="04" />
               </div>
-              <div className="col panel">
-                <img className="img-fluid" src={require('../images/05.jpg')} alt="05" />
-                <img className="img-fluid" src={require('../images/06.jpg')} alt="06" />
+              <div className="col">
+                <img className="img tertiary-image" src={require('../images/05.jpg')} alt="05" />
+                <img className="img tertiary-image" src={require('../images/06.jpg')} alt="06" />
               </div>
-              <div className="col panel sec-image">
-                <img className="img-fluid" src={require('../images/07.jpg')} alt="07" />
+              <div className="col">
+                <img className="img secondary-image" src={require('../images/07.jpg')} alt="07" />
               </div>
             </div>
           </div>

@@ -59,7 +59,7 @@
   line-height: 1;
   letter-spacing: normal;
   text-transform: uppercase;
-  margin-bottom: 10px;  
+  margin-bottom: 50px;  
 }
 
 .content h1 span {
@@ -112,7 +112,7 @@
   }
 }
 
-.panels {
+.panel {
   padding: 30px 0;
   text-align: center;
   align-items: center;
@@ -123,7 +123,7 @@
   width: 100%;
 }
 
-.panels .row {
+.panel .row {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,30 +131,45 @@
   width: 100%;
 }
 
-.panels .row .panel {
-  flex-basis: 20%;
-  margin: 0 10px;
+.panel .row .col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
 }
 
-.panels .row .panel img {
-  max-width: 100%;
-  height: auto;
+.panel .row .col img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  background-color: #fff;
   border-radius: 24px;
-  border: 5px solid #fff;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 8px;
+  margin-bottom: 30px;
 }
 
-.panels .row .panel .main-image {
-  width: 90%;
-  height: auto;
-  max-width: none;
-  transform: scale(1.5);
-  z-index: 1;
+.panel .row .col .main-image {
+  width: 400px;
+  height: 600px;
+  object-fit: cover;
 }
 
-.panels .row .panel img:not(.main-image) {
-  transform: scale(0.9);
-  transition: transform 0.3s ease;
+.panel .row .col .secondary-image {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.panel .row .col .tertiary-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
 }
 
 .break {
