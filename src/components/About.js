@@ -1,7 +1,6 @@
 import React from 'react';
 import './About.css';
 import collectionImage from '../images/collection.png';
-import BreakSVG from '../images/break.svg';
 
 export default function About() {
   return (
@@ -59,7 +58,6 @@ export default function About() {
           </div>
         </div>
       </div>
-      <BreakSVGComponent />
     </section>
   );
 }
@@ -73,10 +71,4 @@ const Card = ({ title, value }) => {
   );
 };
 
-const BreakSVGComponent = () => {
-  return (
-    <div className="break">
-      <img src={BreakSVG} alt="break" />
-    </div>
-  );
-};
+

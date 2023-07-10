@@ -1,9 +1,8 @@
 .about {
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 1400px;
-  width: 100%;
-  font-family: 'Poppins', sans-serif;
 }
 
 .panel-image img {
@@ -15,7 +14,7 @@
 }
 
 .about-title {
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 700;
   color: #000;
   text-align: start;
@@ -123,3 +122,4 @@
   margin-top: 100px;
   margin-bottom: 100px;
 }
+

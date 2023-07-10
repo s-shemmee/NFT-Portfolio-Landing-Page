@@ -1,49 +1,8 @@
-.hero .container {
-  max-width: 1400px;
+.hero {
+  max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-.hero header {
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-  background-color: transparent;
-  transition: background-color 0.3s ease;
-}
-
-.hero header.sticky {
-  background-color: #fff !important;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.hero .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.hero .nav-item:not(:last-child) {
-  margin-right: 1rem;
-}
-
-.hero .nav-link,
-.hero .btn {
-  color: #000;
-  font-size: 20px;
-  font-weight: 700;
-  text-decoration: none;
-  background-color: transparent;
-  border: none;
-}
-
-.hero .nav-link:hover,
-.hero .btn:hover {
-  color: #333;
-  background-color: transparent;
 }
 
 .content {
@@ -59,7 +18,6 @@
   line-height: 1;
   letter-spacing: normal;
   text-transform: uppercase;
-  margin-bottom: 50px;  
 }
 
 .content h1 span {
@@ -176,77 +134,8 @@
   margin: 80px 0;
 } 
 
-.content-2 {
-  padding: 30px 0;
-  text-align: center;
-}
-
-.content-2 h2 {
-  font-family: 'Poppins', sans-serif;
-  color: #000;
-  font-size: 80px;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: uppercase;
-  margin-bottom: 80px;
-}
-
-.content-2 h2 span {
-  background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.content-2 .card {
-  display: flex;
-  background-color: #fff;
-  border-radius: 24px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-  margin-bottom: 30px;
-}
-
-.card .card-icon {
-  font-size: 35px;
-  color: #fff;
-  width: 70px;
-  height: 70px;
-  border-radius: 25%;
-  background: linear-gradient(to top, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.card .card-body {
-  display: flex;
-  flex-direction: column;
-  padding: 0 20px;
-}
-
-.card .card-title {
-  font-family: 'Poppins', sans-serif;
-  color: #000;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: uppercase;
-  text-align: start;
-  margin-bottom: 10px;
-}
-
-.card .card-text {
-  font-family: 'Poppins', sans-serif;
-  color: #333;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: normal;
-  text-transform: none;
-  text-align: start;
-  margin-bottom: 0;
+@media (max-width: 991px) {
+  .secondary-image {
+    display: none;
+  }
 }
