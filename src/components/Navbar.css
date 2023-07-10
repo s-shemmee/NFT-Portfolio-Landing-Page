@@ -1,41 +1,41 @@
-.containerNav {
+.Navbar {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
   padding: 20px 20px;
 }
 
-.containerNav .navbar {
+.Navbar .navbar {
   background-color: transparent;
 }
 
-.containerNav .navbar-brand {
+.Navbar .navbar-brand {
   width: 100px;
 }
 
-.containerNav .navbar-toggler {
+.Navbar .navbar-toggler {
   border: none;
   background-color: transparent;
   outline: none;
 }
 
-.containerNav .navbar-toggler-icon {
+.Navbar .navbar-toggler-icon {
   width: 20px;
   height: 20px;
 }
 
-.containerNav .navbar-nav .nav-item {
+.Navbar .navbar-nav .nav-item {
   margin-right: 15px;
 }
 
-.containerNav .nav-link {
+.Navbar .nav-link {
   color: #161616;
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
 }
 
-.containerNav .nav-link:hover {
+.Navbar .nav-link:hover {
   color: #292929;
 }
 
@@ -77,50 +77,3 @@
     margin-right: 0;
   }
 }
-
-
-
-
-
-/* Path: src\components\Hero.css 
-.hero header {
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 999;
-  background-color: transparent;
-  transition: background-color 0.3s ease;
-}
-
-.hero header.sticky {
-  background-color: #fff !important;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.hero .nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.hero .nav-item:not(:last-child) {
-  margin-right: 1rem;
-}
-
-.hero .nav-link,
-.hero .btn {
-  color: #000;
-  font-size: 20px;
-  font-weight: 700;
-  text-decoration: none;
-  background-color: transparent;
-  border: none;
-}
-
-.hero .nav-link:hover,
-.hero .btn:hover {
-  color: #333;
-  background-color: transparent;
-}
-*/
