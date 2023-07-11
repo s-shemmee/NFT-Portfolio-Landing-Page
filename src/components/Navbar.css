@@ -2,7 +2,18 @@
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 20px 20px;
+  padding: 0 20px;
+  transition: background-color 0.3s ease;
+}
+
+.Navbar.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .Navbar .navbar {
@@ -57,10 +68,30 @@
   color: #292929;
 }
 
-.sticky-top {
-  position: sticky;
+/* Sticky Styles */
+.Navbar.sticky {
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
   z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Navbar.sticky .navbar {
+  background-color: transparent;
+}
+
+.Navbar.sticky .navbar-brand,
+.Navbar.sticky .navbar-nav .nav-item,
+.Navbar.sticky .btn .bi {
+  color: #161616;
+}
+
+.Navbar.sticky .nav-link:hover,
+.Navbar.sticky .btn .bi:hover {
+  color: #292929;
 }
 
 /* Responsive styles */

@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from '../images/logo.svg';
 import './Navbar.css';
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
 
   const handleMenuToggle = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -13,8 +14,21 @@ function Navbar() {
     setIsMenuOpen(false);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolling = window.scrollY > 0;
+      setIsSticky(isScrolling);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <section className='Navbar'>
+    <section className={`Navbar${isSticky ? ' sticky' : ''}`}>
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <img src={logo} alt="Logo" className='navbar-brand'/>
