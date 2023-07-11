@@ -5,9 +5,13 @@
   padding: 0 20px;
 }
 
-.panel-image img {
+.about .container-fluid {
+  padding: 30px 0;
+}
+
+.about-image img {
   width: 100%;
-  max-width: 600px;
+  max-width: 550px;
   height: auto;
   object-fit: cover;
   border-radius: 25px;
@@ -18,7 +22,7 @@
   font-weight: 700;
   color: #000;
   text-align: start;
-  margin-bottom: 20px;
+  margin: 10px 0 30px 0;
   line-height: 1;
 }
 
@@ -34,25 +38,19 @@
   color: #333;
   text-align: start;
   line-height: 1.5;
-  margin-top: 20px;
+  margin-top: 10px;
+  padding: 0 10px;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 50px;
-}
-
-.row .about-card {
+.about .about-card {
   background-color: #fff;
   padding: 10px;
   border-radius: 10%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-  margin-top: 30px;
+  margin-top: 10px;
   text-align: center;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,8 +58,8 @@
   margin-right: 20px;
 }
 
-.row .about-card h2 {
-  font-size: 56px;
+.about .about-card h2 {
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 5px;
   background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
@@ -69,23 +67,23 @@
   color: transparent;
 }
 
-.row .about-card p {
+.about .about-card p {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: #7b7583;
   margin-bottom: 0;
 }
 
-.row .boxs {
+.about .boxs {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;  
   margin-top: 50px;
 }
 
-.box {
+.about .box {
   background-color: transparent;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -93,33 +91,24 @@
   align-items: center;
 }
 
-.box i {
-  font-size: 54px;
+.about .box i {
+  font-size: 58px;
   background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
   background-clip: text;
   color: transparent;  
   margin-bottom: 20px;
 }
 
-.box h2 {
+.about .box h2 {
   font-size: 72px;
   font-weight: 700;
   margin-bottom: 5px;
   color: #000;
 }
 
-.box p {
+.about .box p {
   font-size: 16px;
   font-weight: 400;
   color: #7b7583;
   margin-bottom: 0;
 }
-
-.about .break {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
-}
-
