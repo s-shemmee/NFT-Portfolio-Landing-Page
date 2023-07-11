@@ -131,7 +131,7 @@
 }
 
 @media (max-width: 991px) {
-  .secondary-image {
+  .secondary-image, svg {
     display: none;
   }
 }
