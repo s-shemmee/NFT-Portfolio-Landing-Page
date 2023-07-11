@@ -113,13 +113,13 @@
 }
 
 .panel .row .col .main-image {
-  width: 400px;
-  height: 600px;
+  width: 350px;
+  height: 500px;
   object-fit: cover;
 }
 
 .panel .row .col .secondary-image {
-  width: 200px;
+  width: 180px;
   height: 250px;
   object-fit: cover;
 }
@@ -129,10 +129,6 @@
   height: 150px;
   object-fit: cover;
 }
-
-.break {
-  margin: 80px 0;
-} 
 
 @media (max-width: 991px) {
   .secondary-image {
