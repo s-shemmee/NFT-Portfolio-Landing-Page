@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section className="about">
       <div className="container-fluid">
-        <div className="row">
+        <div className="row justify-content-center">
           <div className="col-md-6 about-image">
             <img src={collectionImage} className="img-fluid" alt="Collection" />
           </div>

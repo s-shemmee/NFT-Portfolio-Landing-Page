@@ -58,7 +58,7 @@ export default function Why() {
             <div className="col-md-4">
               <div className="row justify-content-center">
                 <div className="col-md-12">
-                <img className="img-fluid" src={require('../images/land-cta.png')} alt="center-img"/>          
+                <img className="img-fluid center-img" src={require('../images/land-cta.png')} alt="center-img"/>          
                 </div>
               </div>
             </div>

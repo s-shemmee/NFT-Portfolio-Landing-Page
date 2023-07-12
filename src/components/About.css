@@ -6,7 +6,7 @@
 }
 
 .about .container-fluid {
-  padding: 30px 0;
+  padding: 3+0px 0;
 }
 
 .about-image img {
@@ -111,4 +111,116 @@
   font-weight: 400;
   color: #7b7583;
   margin-bottom: 0;
+}
+
+/* Extra Small Devices (Mobile Phones) */
+@media (max-width: 575.98px) {
+  .about-title {
+    font-size: 50px;
+  }
+
+  .about .about-card {
+    width: 80px;
+    height: 80px;
+  }
+
+  .about .about-card h2 {
+    font-size: 25px;
+  }
+
+  .about .about-card p {
+    font-size: 10px;
+  }
+
+  .about .box {
+    padding: 5px;
+  }
+
+  .about .box i {
+    font-size: 40px;
+  }
+
+  .about .box h2 {
+    font-size: 30px;
+  }
+
+  .about .box p {
+    font-size: 12px;
+  }
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .about-title {
+    font-size: 60px;
+  }
+
+  .about .about-card {
+    width: 130px;
+    height: 130px;
+  }
+
+  .about .about-card h2 {
+    font-size: 50px;
+  }
+
+  .about .about-card p {
+    font-size: 14px;
+  }
+}
+
+/* Medium Devices (Laptops and Small Desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .about-title {
+    font-size: 60px;
+  }
+
+  .about .about-card {
+    width: 100px;
+    height: 100px;
+  }
+
+  .about .about-card h2 {
+    font-size: 30px;
+  }
+
+  .about .about-card p{
+    font-size: 12px;
+  }
+
+  .about .box {
+    padding: 5px;
+  }
+
+  .about .box i {
+    font-size: 40px;
+  }
+
+  .about .box h2 {
+    font-size: 30px;
+  }
+
+  .about .box p {
+    font-size: 12px;
+  }
+}
+
+/* Case between 1059px and 991px */
+@media (min-width: 992px) and (max-width: 1058.98px) {
+  .about-title {
+    font-size: 65px;
+  }
+
+  .about .about-card {
+    width: 135px;
+    height: 135px;
+  }
+
+  .about .about-card h2 {
+    font-size: 50px;
+  }
+
+  .about .about-card p {
+    font-size: 14px;
+  }
 }
