@@ -1,0 +1,246 @@
+.roadmap {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.roadmap .row {
+  display: flex;
+  align-items: center;
+}
+
+.roadmap-title {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.roadmap-title span {
+  background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.text-column li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #757575;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.text-column li:hover {
+  color: #ca94f3;
+}
+
+.text-column li.active {
+  color: #000;
+}
+
+.text-column li.active:hover {
+  color: #5101e3;
+}
+
+.text-column li span {
+  display: none;
+  font-weight: 700;
+  color: #eb00f0;
+  position: relative;
+  top: -10px;
+}
+
+.text-column li.active span {
+  display: inline;
+}
+
+.roadmap .card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+}
+
+.roadmap .card .card-phase {
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
+  width: fit-content;
+  margin-bottom: 30px;
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.roadmap .card .card-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.roadmap .card .card-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.roadmap .card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.roadmap .card ul li {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #7b7583;
+  margin-bottom: 5px;
+}
+
+.roadmap .card ul li i {
+  margin-right: 10px;
+  color: #eb00f0;
+}
+
+/* Extra Small Devices (Mobile Phones) */
+@media (max-width: 575.98px) {
+  .roadmap-title {
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+
+  .text-column ul {
+    margin-bottom: 30px;
+  }
+
+  .text-column li {
+    font-size: 20px;
+  }
+
+  .text-column li span {
+    font-size: 20px;
+  }
+
+  .roadmap .card .card-phase {
+    font-size: 12px;
+  }
+
+  .roadmap .card .card-title {
+    font-size: 20px;
+  }
+
+  .roadmap .card .card-text {
+    font-size: 12px;
+  }
+
+  .roadmap .card ul li {
+    font-size: 12px;
+  }
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .roadmap-title {
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
+
+  .text-column li {
+    font-size: 30px;
+  }
+
+  .text-column li span {
+    font-size: 30px;
+  }
+
+  .roadmap .card .card-phase {
+    font-size: 14px;
+  }
+
+  .roadmap .card .card-title {
+    font-size: 26px;
+  }
+
+  .roadmap .card .card-text {
+    font-size: 14px;
+  }
+
+  .roadmap .card ul li {
+    font-size: 14px;
+  }
+}
+
+/* Medium Devices (Laptops and Small Desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .roadmap-title {
+    font-size: 60px;
+    margin-bottom: 60px;
+  }
+
+  .text-column li {
+    font-size: 24px;
+  }
+
+  .roadmap .card .card-phase {
+    font-size: 16px;
+  }
+
+  .roadmap .card .card-title {
+    font-size: 30px;
+  }
+
+  .roadmap .card .card-text {
+    font-size: 16px;
+  }
+
+  .roadmap .card ul li {
+    font-size: 16px;
+  }
+}
+
+/* Large Devices (Desktops and Large Screens) */
+@media (min-width: 992px) {
+  .roadmap-title {
+    font-size: 80px;
+    margin-bottom: 80px;
+  }
+
+  .text-column li {
+    font-size: 32px;
+  }
+
+  .roadmap .card .card-phase {
+    font-size: 15px;
+  }
+
+  .roadmap .card .card-title {
+    font-size: 32px;
+  }
+
+  .roadmap .card .card-text {
+    font-size: 16px;
+  }
+
+  .roadmap .card ul li {
+    font-size: 16px;
+  }
+}
