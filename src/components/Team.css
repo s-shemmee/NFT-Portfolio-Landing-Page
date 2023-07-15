@@ -1,0 +1,25 @@
+.team {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.team h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.team h1 span {
+  background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

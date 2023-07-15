@@ -3,7 +3,7 @@ import './Break.css';
 
 function Break() {
   return (
-    <svg className="break" width="300" height="35" viewBox="0 0 404 34" fill="#4f02f4" xmlns="http://www.w3.org/2000/svg">
+    <svg className="break" width="250" height="35" viewBox="0 0 404 34" fill="#4f02f4" xmlns="http://www.w3.org/2000/svg">
       <path opacity="0.2" d="M16 13H6L0 21H16H32H42L48 13H32H16Z"></path>
       <path opacity="0.5" d="M72 13H62L56 21H72H88H98L104 13H88H72Z"></path>
       <path d="M128 13H118L112 21H128H144H154L160 13H144H128Z"></path>

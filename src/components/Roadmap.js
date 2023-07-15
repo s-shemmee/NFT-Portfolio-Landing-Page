@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import MetamaskLogo from '../images/metamask.svg';
+import BitgoLogo from '../images/bitgo.svg';
+import CoinbaseLogo from '../images/coinbase.svg';
+import TrustWalletLogo from '../images/trustwallet.svg';
+import ExodusLogo from '../images/exodus.svg';
 import './Roadmap.css';
 
 export default function Roadmap() {
@@ -190,6 +195,17 @@ export default function Roadmap() {
                 )}
               </div>
             </div>
+          </div>
+          <div className="row sponsors-row">
+          <div className="col-12">
+            <div className="sponsors">
+              <img src={MetamaskLogo} alt="Metamask Logo" className="sponsor-logo" />
+              <img src={BitgoLogo} alt="BitGO Logo" className="sponsor-logo" />
+              <img src={CoinbaseLogo} alt="Coinbase Logo" className="sponsor-logo" />
+              <img src={TrustWalletLogo} alt="Trust Wallet Logo" className="sponsor-logo" />
+              <img src={ExodusLogo} alt="Exodus Logo" className="sponsor-logo" />
+            </div>
+          </div>
           </div>
         </div>
       </div>
