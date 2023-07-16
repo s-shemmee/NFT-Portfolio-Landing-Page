@@ -1,0 +1,94 @@
+.collection{
+  max-width: 1200px;
+  width: 100%;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.collection h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.collection h1 span {
+  background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.collection-card {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 20px;
+  margin-bottom: 30px;
+  overflow-wrap: normal;
+}
+
+.collection-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.collection-card-header img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.collection-card-header-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.collection-card-header-info h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.collection-card-header-info p {
+  font-size: 14px;
+  color: #888;
+  margin: 0;
+}
+
+.collection-card-images {
+  display: flex;
+}
+
+.collection-card-images img {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.collection-card-left-image {
+  flex: 3;
+  margin-right: 10px;
+}
+
+.collection-card-right-images {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.collection-card-right-images img {
+  flex: 1;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}

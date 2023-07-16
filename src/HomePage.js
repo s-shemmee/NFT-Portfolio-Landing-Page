@@ -4,6 +4,7 @@ import Why from './components/Why';
 import About from './components/About';
 import Roadmap from './components/Roadmap';
 import Team from './components/Team';
+import Collection from './components/Collection';
 import Break from './components/Break';
 
 function HomePage() {
@@ -19,6 +20,8 @@ function HomePage() {
       <Roadmap />
       <Break />
       <Team />
+      <Break />
+      <Collection />
       <Break />
     </div>
   );
