@@ -5,7 +5,8 @@ import About from './components/About';
 import Roadmap from './components/Roadmap';
 import Team from './components/Team';
 import Collection from './components/Collection';
-import QnA from './components/QnA'; 
+import QnA from './components/QnA';
+import Footer from './components/Footer';
 import Break from './components/Break';
 
 function HomePage() {
@@ -26,6 +27,7 @@ function HomePage() {
       <Break />
       <QnA />
       <Break />
+      <Footer />
     </div>
   );
 }
