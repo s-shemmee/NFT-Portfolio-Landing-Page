@@ -18,6 +18,9 @@ The NFT Portfolio Landing Page is a web application designed to showcase NFT (No
 - Other dependencies as required.
 
 # Installation and Usage
+## Prerequisites
+- Node.js and npm installed on your system.
+
 To use this NFT Portfolio Landing Page, follow these steps:
 
 - Clone the repository or download the source code.
