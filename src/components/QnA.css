@@ -1,0 +1,79 @@
+.QnA {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.QnA h2 {
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.QnA h2 span {
+  background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.QnA .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.QnA .card {
+  width: 500px;
+  background: #fff;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+
+.QnA .question {
+  position: relative;
+  cursor: pointer;
+}
+
+.QnA .question h5 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: normal;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.QnA .question h5:hover {
+  color: #666;
+}
+
+.QnA .question h5 i {
+  right: 0;
+  position: absolute;
+  font-size: 16px;
+  color: #666;
+}
+
+.QnA .question p {
+  color: #666;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: normal;
+  margin-bottom: 20px;
+}
