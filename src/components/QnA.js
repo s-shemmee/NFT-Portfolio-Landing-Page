@@ -59,7 +59,7 @@ export default function QnA() {
         </div>
         <div className="row">
           <div className="col-md-6 card">
-            {questions.map((q) => (
+            {questions.map((q, index) => (
               <div className="question" key={q.id}>
                 <h5 onClick={() => toggleAnswerLeft(q.id)} data-active={activeQuestionLeft === q.id}>
                   {q.question}
@@ -72,12 +72,13 @@ export default function QnA() {
                 {activeQuestionLeft === q.id && (
                   <p>{q.answer}</p>
                 )}
+                {index !== questions.length - 1 && <hr />}
               </div>
             ))}
           </div>
 
           <div className="col-md-6 card">
-            {questions.map((q) => (
+            {questions.map((q, index) => (
               <div className="question" key={q.id}>
                 <h5 onClick={() => toggleAnswerRight(q.id)} data-active={activeQuestionRight === q.id}>
                   {q.question}
@@ -90,6 +91,7 @@ export default function QnA() {
                 {activeQuestionRight === q.id && (
                   <p>{q.answer}</p>
                 )}
+                {index !== questions.length - 1 && <hr />}
               </div>
             ))}
           </div>

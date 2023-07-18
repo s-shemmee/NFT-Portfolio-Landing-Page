@@ -92,3 +92,10 @@
   margin-bottom: 10px;
   border-radius: 15px;
 }
+
+/* Extra Small Devices (Mobile Phones) */
+@media (max-width: 575.98px) {
+  .collection h1 {
+    font-size: 50px;
+  }
+}

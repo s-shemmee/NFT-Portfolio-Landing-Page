@@ -1,3 +1,4 @@
+import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Why from './components/Why';
@@ -13,19 +14,19 @@ function HomePage() {
   return (
     <div>
       <Navbar />
-      <Hero />
+      <Hero id="hero" />
       <Break />
-      <Why />
-      <Break /> 
-      <About />
+      <Why id="why" />
       <Break />
-      <Roadmap />
+      <About id="about" />
       <Break />
-      <Team />
+      <Roadmap id="roadmap" />
       <Break />
-      <Collection />
+      <Team id="team" />
       <Break />
-      <QnA />
+      <Collection id="collection" />
+      <Break />
+      <QnA id="qna" />
       <Break />
       <Footer />
     </div>

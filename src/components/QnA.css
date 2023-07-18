@@ -26,7 +26,7 @@
 
 .QnA .row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin: 0 auto;
   justify-content: space-around;
 }
@@ -76,4 +76,47 @@
   line-height: 1.8;
   letter-spacing: normal;
   margin-bottom: 20px;
+}
+
+/* Extra Small Devices (Mobile Phones) */
+@media (max-width: 575.98px) {
+  .QnA h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+  .QnA .row {
+    flex-wrap: wrap;
+  }
+  .QnA .card {
+    width: 100%;
+  }
+  .QnA .question h5 {
+    font-size: 18px;
+  }
+  .QnA .question h5 i {
+    font-size: 10px;
+  }
+  .QnA .question p {
+    font-size: 14px;
+  }
+}
+
+/* Small Devices (Tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .QnA .row {
+    flex-wrap: wrap;
+  }
+  .QnA .card {
+    width: 80%;
+  }
+}
+
+/* Medium Devices (Laptops and Small Desktops) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .QnA .row {
+    flex-wrap: wrap;
+  }
+  .QnA .card {
+    width: 80%;
+  }
 }

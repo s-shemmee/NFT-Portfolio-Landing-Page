@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-scroll';
 import logo from '../images/logo.svg';
 import './Navbar.css';
 
@@ -51,24 +52,52 @@ function Navbar() {
             <div className="offcanvas-body">
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link" aria-current="page" href="/">
+                  <Link
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    onClick={handleCloseMenu}
+                    className="nav-link"
+                  >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <Link
+                    to="roadmap"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    onClick={handleCloseMenu}
+                    className="nav-link"
+                  >
                     Roadmap
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <Link
+                    to="team"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    onClick={handleCloseMenu}
+                    className="nav-link"
+                  >
                     Team
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="/">
+                  <Link
+                    to="collection"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    onClick={handleCloseMenu}
+                    className="nav-link"
+                  >
                     Collection
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="d-flex align-items-center ms-lg-4">
