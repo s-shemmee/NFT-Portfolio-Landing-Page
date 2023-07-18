@@ -30,7 +30,7 @@ To use this NFT Portfolio Landing Page, follow these steps:
 - Open your browser and navigate to `http://localhost:3000` to access the app.
 
 # Demo
-A live demo of the NFT Portfolio Landing Page is available at [LINK TO LIVE DEMO]().
+A live demo of the NFT Portfolio Landing Page is available at [LINK TO LIVE DEMO](https://nft-portfolio-landing-page.vercel.app).
 
 # Credits
 - The NFT Portfolio Landing Page was inspired by the beautiful Next.js landing page created by [reacthemes](https://themeforest.net/user/reacthemes). I would like to thank them for their amazing work, which served as the inspiration for this recreation using React.js.
