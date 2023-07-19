@@ -37,7 +37,7 @@
   padding: 15px;
 }
 
-.card .card-icon {
+.why .card .card-icon {
   font-size: 35px;
   color: #fff;
   width: 70px;
@@ -50,12 +50,13 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.card .card-body {
+.why .card .card-body {
   display: flex;
-  flex-direction: column;
+  flex-direction: column; 
+  padding: 10px 5px;
 }
 
-.card .card-title {
+.why .card .card-title {
   font-family: 'Poppins', sans-serif;
   color: #000;
   font-size: 23px;
@@ -66,7 +67,7 @@
   text-align: start;
 }
 
-.card .card-text {
+.why .card .card-text {
   font-family: 'Poppins', sans-serif;
   color: #333;
   font-size: 16px;
@@ -86,10 +87,10 @@
   .why .center-img {
     max-height: 400px;
   }
-  .card .card-title {
+  .why .card .card-title {
     font-size: 20px;
   }
-  .card .card-text {
+  .why .card .card-text {
     font-size: 14px;
   }
 }
@@ -103,10 +104,10 @@
   .why .center-img {
     max-height: 400px;
   }
-  .card .card-title {
+  .why .card .card-title {
     font-size: 22px;
   }
-  .card .card-text {
+  .why .card .card-text {
     font-size: 15px;
   }
 }
@@ -120,10 +121,10 @@
   .why .center-img {
     max-height: 500px;
   }
-  .card .card-title {
+  .why .card .card-title {
     font-size: 24px;
   }
-  .card .card-text {
+  .why .card .card-text {
     font-size: 16px;
   }
 }

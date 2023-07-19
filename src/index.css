@@ -3,15 +3,9 @@
 
 html, body {
   overflow-x: hidden;
-}
-
-body {
   margin: 0;
   font-family: 'Space Grotesk', sans-serif;
-  background-image: linear-gradient(to bottom, #ceace2, #d7c1ec, #e2d6f4, #efebfa, #ffffff);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background: linear-gradient(to top, #fff 50%, #e9d2fc);
 }
 
 /* Scrollbar Customization */
