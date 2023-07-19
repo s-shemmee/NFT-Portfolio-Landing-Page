@@ -136,8 +136,11 @@
     font-size: 48px;
   }
   .panel .row .col .main-image {
-    width: 150px;
+    width: 110px;
     height: 250px;
+  }
+  .panel .row .col img {
+    padding: 5px;
   }
   .panel .row .col .tertiary-image {
     width: 100px;
