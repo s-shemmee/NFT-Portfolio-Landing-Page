@@ -37,4 +37,4 @@ A live demo of the NFT Portfolio Landing Page is available at [LINK TO LIVE DEMO
 - The NFT Portfolio Landing Page recreation was created by [s-shemmee](https://github.com/s-shemmee) using React.js.
 
 # License
-This project is licensed under the MIT license.
+This project is licensed under the GNU GENERAL PUBLIC LICENSE.
