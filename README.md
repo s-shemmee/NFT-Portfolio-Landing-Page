@@ -2,6 +2,8 @@
 
 The NFT Portfolio Landing Page is a web application designed to showcase NFT (Non-Fungible Token) collection and portfolio. I was inspired by an existing Next.js landing page and decided to recreate it using React.js. The landing page provides a visually appealing and user-friendly interface to display NFTs, attracting potential buyers and art enthusiasts. The landing page is built using modern web technologies and is fully responsive for an optimal viewing experience across devices.
 
+![Snapshot nft-portfolio-landing-page vercel app](https://github.com/s-shemmee/NFT-Portfolio-Landing-Page/assets/56132945/81db5ea8-64c8-49af-b9b0-3e39b404f42a)
+
 ## Features
 
 - Showcase NFT collection with stunning visuals.
