@@ -1,25 +1,29 @@
 import React from "react";
 import './Why.css'
+import AdamApple from '../images/AdamApple.png';
+
+
 
 export default function Why() {
   return(
     <section className="why">
       <div className="container-fluid">
         <div className="content">
-          <h2>WHY <span>CHOOSE US?</span></h2>
+          <h2>WTF <span>IS RUDE FRUIT?!?</span></h2>
           <div className="row">
             <div className="col-md-4">
               <div className="card mb-3">
                 <div className="row g-0">
                   <div className="col-md-4">
                     <div className="card-icon">
-                      <i className="bi bi-wallet2"></i>
+                      {/* Replacing icon with image */}
+                      <img src={AdamApple} alt="Adam the Apple" />
                     </div>
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
-                      <h5 className="card-title">CONNECT YOUR WALLET</h5>
-                      <p className="card-text">Use Trust Wallet, Metamask or to connect to the app.</p>
+                      <h5 className="card-title">ADAM the APPLE</h5>
+                      <p className="card-text">Never fell far, but rolls with a mischievous bunch!.</p>
                     </div>
                   </div>
                 </div>
