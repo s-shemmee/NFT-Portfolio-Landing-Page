@@ -12,19 +12,31 @@
 
 .content h1 {
   font-family: 'Poppins', sans-serif;
-  color: #000;
+  /* color: #ff0000; */
+  background-image: linear-gradient(to left, violet, indigo, blue, rgb(245, 21, 233), rgb(241, 0, 0), orange, rgb(252, 17, 252));
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 110px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  }
+/*   
   font-size: 96px;
   font-weight: 700;
   line-height: 1;
   letter-spacing: normal;
   text-transform: uppercase;
-}
+} */
 
 .content h1 span {
   background: linear-gradient(to right, #5101e3, #8300e7, #a900eb, #cc00ee, #eb00f0);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-size: 76px;
 }
 
 .svg-wrapper-top {
@@ -113,19 +125,19 @@
 }
 
 .panel .row .col .main-image {
-  width: 350px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
 }
 
 .panel .row .col .secondary-image {
-  width: 180px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
 }
 
 .panel .row .col .tertiary-image {
-  width: 200px;
+  width: 150pxx;
   height: 150px;
   object-fit: cover;
 }

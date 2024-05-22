@@ -51,6 +51,18 @@ function Navbar() {
             </div>
             <div className="offcanvas-body">
               <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                  <Link
+                    to="hero"
+                    spy={true}
+                    smooth={true}
+                    duration={500}
+                    onClick={handleCloseMenu}
+                    className="nav-link"
+                  >
+                    Home
+                  </Link>
+                </li>
                 <li className="nav-item">
                   <Link
                     to="about"
@@ -102,10 +114,13 @@ function Navbar() {
               </ul>
               <div className="d-flex align-items-center ms-lg-4">
                 <a href="https://twitter.com" className="btn">
-                  <i className="bi bi-twitter"></i>
+                  <i className="bi bi-x"></i>
                 </a>
-                <a href="https://discord.com" className="btn">
-                  <i className="bi bi-discord"></i>
+                <a href="https://telegram.com" className="btn">
+                  <i className="bi bi-telegram"></i>
+                </a>
+                <a href="https://instagram.com" className="btn">
+                  <i className="bi bi-instagram"></i>
                 </a>
               </div>
             </div>
